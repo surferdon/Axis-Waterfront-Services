@@ -1,12 +1,20 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Jobber from './Jobber';
+import { useState } from 'react';
 
 
 function App() {
+const [isOpen, setOpen] = useState(false);
+
+
   return (
     <div className="App">
+<button onClick={()=>setOpen(!isOpen)}>Click to open Jobber form!</button>
+
+<div className={isOpen ? "JobberOpen" : "JobberClosed"}>
  <Jobber/>
+ </div>
     </div>
   );
 }
