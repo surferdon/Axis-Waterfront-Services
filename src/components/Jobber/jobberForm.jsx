@@ -1,7 +1,8 @@
+
 import React from "react";
 import { Helmet } from "react-helmet";
 
-export default class Jobber extends React.Component {
+export default class Quote extends React.Component {
   render() {
     return (
       <div className="Application" id="f6f2802e-49e8-477b-b405-8b2b18dded97">
