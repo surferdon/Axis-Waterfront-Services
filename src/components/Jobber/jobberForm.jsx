@@ -1,12 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./Jobber.scss"
+import Navbar from "../Navbar";
 
 export default class Jobber extends React.Component {
   render() {
     return (
-      <div className="JobberOpen">
 
+      <div className="JobberOpen1">
+<Navbar/>
+<div className="JobberOpen">
       <div className="Application" id="f6f2802e-49e8-477b-b405-8b2b18dded97">
         <Helmet>
         <div id="f6f2802e-49e8-477b-b405-8b2b18dded97"></div>
@@ -20,7 +23,7 @@ export default class Jobber extends React.Component {
             />
 
         </Helmet>
-      </div></div>
+      </div></div></div>
     );
   }
 }
