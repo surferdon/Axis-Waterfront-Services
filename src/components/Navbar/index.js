@@ -89,7 +89,7 @@ return (
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <JobberBtnLink to="/Request a Quote">Request a Quote</JobberBtnLink>
+                    <JobberBtnLink to="/Quote"> Request a Quote</JobberBtnLink>
                  
                 </NavBtn>
             </NavbarContainer>
