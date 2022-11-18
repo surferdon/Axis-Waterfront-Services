@@ -39,9 +39,9 @@
 }
 .JobberOpen {
   position: fixed;
-  top: 10%;
-  left: 10%;
-  bottom: 10%;
+  top: 5rem;
+  left: 15%;
+  bottom: 15%;
   right: 10%;
   border: 5px solid black;
   border-radius: 3rem;
@@ -49,6 +49,7 @@
   visibility: visible;
   scale: 1;
   transition: scale .3s linear;
+  z-index: 1000;
 }
 .JobberOpen:hover {
   box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.351);
@@ -73,4 +74,40 @@
 .Application {
   margin: 2rem;
   padding: 2rem;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.116);
+  z-index: 1;
+
+}
+
+.Button{
+  z-index: 1000;
+  height: 2rem;
+  width: 20rem;
+  background: rgb(152, 152, 152);
+border: .2rem solid black;;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding-top: .75rem;
+  font-weight: bold;
+}
+
+.Button:hover{
+
+  box-shadow: 20px 20px 20px rgba(82, 82, 82, 0.351);
+  border: .3rem solid black;
 }

@@ -10,13 +10,16 @@ const [isOpen, setOpen] = useState(false);
 
   return (
     <div className="App">
-<button onClick={()=>setOpen(!isOpen)}>Click to open Jobber form!</button>
+<div className='Button' onClick={()=>setOpen(!isOpen)}>Click to open Jobber form!</div>
+      <div className='Overlay'></div>
+
 
 
 <div className={isOpen ? "JobberOpen" : "JobberClosed"}><div className='Inner'>
  <Jobber/>
  </div>
-    </div></div>
+ 
+    </div>   </div>
   );
 }
 
