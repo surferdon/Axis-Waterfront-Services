@@ -1,29 +1,29 @@
 
 .JobberOpen {
 display: flex;
-height: fit-content;
-  overflow: scroll;
+height: 100%;
+width: 100%;
+
   background-image: url("./Axis Waterfront.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-padding: 2rem;
+  padding-top: 2rem;
+padding-bottom: 6rem;
 }
 .JobberOpen1 {
   position: relative;
 height: 100%;
 width: 100%;
-
  
-
-
-
- 
+}
+.JobberClosed {
+  display: none;
 }
 
 .Application {
 
 width: 100%;
-padding: 2rem;
+
 }

@@ -11,7 +11,7 @@ import Quote from "../components/Jobber/jobberForm";
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
-
+const [isActive, setIsActive] = useState(false)
     const toggle = () => {
         setIsOpen ( !isOpen)
     };
@@ -25,8 +25,8 @@ const Home = () => {
         
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjOne} />
-        <InfoSection {...homeObjThree} />
-        <Quote />
+        <InfoSection isActive={isActive} setIsActive={setIsActive} {...homeObjThree} />
+        <Quote className={isActive ? "JobberOpen" : "JobberClosed"}/>
         <Footer />
         
         </>

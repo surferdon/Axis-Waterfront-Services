@@ -1,15 +1,15 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./Jobber.scss"
+import Navbar from "../Navbar";
 
-
-export default class JobberOpen extends React.Component {
-  render() {
+const Quote =({className}) =>{
+ {
     return (
 
-      <div className="JobberOpen1">
+      <div className="JobberOpen2">
 
-<div className="JobberOpen">
+<div className={className}>
       <div className="Application" id="f6f2802e-49e8-477b-b405-8b2b18dded97">
         <Helmet>
         <div id="f6f2802e-49e8-477b-b405-8b2b18dded97"></div>
@@ -23,10 +23,11 @@ export default class JobberOpen extends React.Component {
             />
 
         </Helmet>
-      </div></div></div>
+      </div></div><Navbar/></div>
     );
   }
 }
 
+export default Quote;
 /* Needs to be updated with Axis jobber embed
 Information doesnt seem to be valid */
