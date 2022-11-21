@@ -89,7 +89,14 @@ return (
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <JobberBtnLink to="/Quote"> Request a Quote</JobberBtnLink>
+                <NavLinks to='contact'
+                        smooth={true} 
+                        duration={500} 
+                        spy={true} 
+                        exact='true' 
+                        offset={-80}
+                        >Request a quote
+                        </NavLinks>
                  
                 </NavBtn>
             </NavbarContainer>

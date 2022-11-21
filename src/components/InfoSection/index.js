@@ -31,15 +31,8 @@ const InfoSection = ({
     primary,
     dark,
     dark2,
-    isActive,
-    setIsActive
+    HandleClick,
 }) => {
-
-   const HandleQuoteClick = () => {
-    setIsActive(!isActive)
-    console.log(isActive)
-   }
-
   return (
    <>
    <InfoContainer lightBg={lightBg} id={id}>
@@ -51,9 +44,17 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                    <Button onClick={HandleQuoteClick}>
-                        Request a Quote!
-                        </Button>
+                    <Button to='home'
+                    onClick={HandleClick}
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    primary={primary ? 1 : 0}
+                    dark={dark ? 1 : 0}
+                    dark2={dark2 ? 1: 0}
+                    >{buttonLabel}</Button>
                 </BtnWrap>
             </TextWrapper>
             </Column1>

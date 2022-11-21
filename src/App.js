@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}exact />
         <Route path="/signin" element={<SigninPage/>}exact />
-        <Route path="/Quote" element={<Quote/>}exact />
+        <Route path="/Quote" element={<Quote isActive="isActive"/>}exact />
       </Routes>
     </Router>
   );
