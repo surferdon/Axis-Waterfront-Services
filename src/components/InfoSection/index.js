@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Children } from 'react';
 import { Button } from '../ButtonElement';
 
 import { 
@@ -32,9 +32,11 @@ const InfoSection = ({
     dark,
     dark2,
     HandleClick,
+    Children
 }) => {
   return (
    <>
+   {Children}
    <InfoContainer lightBg={lightBg} id={id}>
     <InfoWrapper>
         <InfoRow imgStart={imgStart}>

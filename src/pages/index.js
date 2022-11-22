@@ -8,6 +8,9 @@ import Services from '../components/Services';
 import Sidebar from '../components/Sidebar'
 import Quote from "../components/Jobber/jobberForm";
 
+import { 
+    InfoContainer, 
+} from '../components/InfoSection/InfoElements';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -25,14 +28,14 @@ const HandleClick = () => {
     return (
         <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle ={toggle} />
+        <Navbar toggle ={toggle} HandleClick={HandleClick}/>
         <HeroSection />
         <Services />
         
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjOne} />
         <InfoSection isActive={isActive} setIsActive={setIsActive} HandleClick={HandleClick} {...homeObjThree} />
-        <Quote className={isActive ? "JobberOpen" : "JobberClosed"}/>
+        <InfoContainer id="book"> <Quote className={isActive ? "JobberOpen" : "JobberClosed"}/></InfoContainer>
         <Footer />
         
         </>

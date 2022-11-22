@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./Jobber.scss"
-import Navbar from "../Navbar";
+
 
 const Quote =({className}) =>{
  {
@@ -23,7 +23,7 @@ const Quote =({className}) =>{
             />
 
         </Helmet>
-      </div></div><Navbar/></div>
+      </div></div></div>
     );
   }
 }

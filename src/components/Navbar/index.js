@@ -15,7 +15,7 @@ import {
     JobberBtnLink
 } from './NavbarElements';
 
-const Navbar = ({ toggle, children}) => {
+const Navbar = ({ toggle, children,  HandleClick}) => {
     const [scrollNav, setScrollNav] = useState(false);
     
 const changeNav = () => {
@@ -90,7 +90,8 @@ return (
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                <JobberBtnLink><NavLinks to='contact'
+                <JobberBtnLink><NavLinks to='book'
+                        onClick={HandleClick}
                         smooth={true} 
                         duration={500} 
                         spy={true} 
