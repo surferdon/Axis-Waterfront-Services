@@ -12,10 +12,10 @@ import {
     NavItem, 
     NavLinks,
     NavBtn,
-    JobberBtnLink 
+    JobberBtnLink
 } from './NavbarElements';
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, children}) => {
     const [scrollNav, setScrollNav] = useState(false);
     
 const changeNav = () => {
@@ -40,6 +40,7 @@ return (
         <IconContext.Provider value={{ color: '#fff'}}>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
+                {children}
                 <NavLogo to='/' onClick={toggleHome}>Axis Waterfront</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
@@ -89,14 +90,14 @@ return (
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                <NavLinks to='contact'
+                <JobberBtnLink><NavLinks to='contact'
                         smooth={true} 
                         duration={500} 
                         spy={true} 
                         exact='true' 
                         offset={-80}
                         >Request a quote
-                        </NavLinks>
+                        </NavLinks></JobberBtnLink>
                  
                 </NavBtn>
             </NavbarContainer>
