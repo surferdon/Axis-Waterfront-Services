@@ -43,7 +43,7 @@ export const homeObjThree = {
     headline: '(512) 264-1774',
     description: 
     'We would like to meet you, offer some ideas, and provide you with a free quote',
-    buttonLabel: 'Call Axis Waterfront',
+    buttonLabel: 'Request a Quote!',
     imgStart: false,
     img: require('../../images/basic_logo_nobackground.png'),
     alt: 'Car',
@@ -51,4 +51,20 @@ export const homeObjThree = {
     primary: false,
     darkText: true
 };
-
+export const homeObjFour = {
+    id: 'book',
+    lightBg: false,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Give us a call',
+    headline: '(512) 264-1774',
+    description: 
+    'We would like to meet you, offer some ideas, and provide you with a free quote',
+    buttonLabel: '',
+    imgStart: false,
+    img: "",
+    alt: 'Car',
+    dark: false,
+    primary: false,
+    darkText: false
+};

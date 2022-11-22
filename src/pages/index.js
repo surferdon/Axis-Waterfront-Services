@@ -6,24 +6,36 @@ import { homeObjOne,homeObjTwo, homeObjThree } from '../components/InfoSection/D
 import Navbar from '../components/Navbar'
 import Services from '../components/Services';
 import Sidebar from '../components/Sidebar'
+import Quote from "../components/Jobber/jobberForm";
 
+import { 
+    InfoContainer, 
+} from '../components/InfoSection/InfoElements';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
+const [isActive, setIsActive] = useState(false)
 
+const HandleClick = () => {
+    setIsActive(true)
+    console.log(isActive)
+};
     const toggle = () => {
         setIsOpen ( !isOpen)
+        console.log(isActive)
     };
 
     return (
         <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
-        <Navbar toggle ={toggle} />
+        <Navbar toggle ={toggle} HandleClick={HandleClick}/>
         <HeroSection />
         <Services />
+        
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjOne} />
-        <InfoSection {...homeObjThree} />
+        <InfoSection isActive={isActive} setIsActive={setIsActive} HandleClick={HandleClick} {...homeObjThree} />
+        <InfoContainer id="book"> <Quote className={isActive ? "JobberOpen" : "JobberClosed"}/></InfoContainer>
         <Footer />
         
         </>

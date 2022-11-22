@@ -30,10 +30,13 @@ const InfoSection = ({
     alt, 
     primary,
     dark,
-    dark2
+    dark2,
+    HandleClick,
+    Children
 }) => {
   return (
    <>
+   {Children}
    <InfoContainer lightBg={lightBg} id={id}>
     <InfoWrapper>
         <InfoRow imgStart={imgStart}>
@@ -43,7 +46,8 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                    <Button to='home' 
+                    <Button to='home'
+                    onClick={HandleClick}
                     smooth={true}
                     duration={500}
                     spy={true}
