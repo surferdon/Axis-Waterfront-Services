@@ -4,7 +4,7 @@ import "./Jobber.scss"
 
 
 const Quote =({className}) =>{
- {
+ 
     return (
 
       <div className="JobberOpen2">
@@ -26,7 +26,7 @@ const Quote =({className}) =>{
       </div></div></div>
     );
   }
-}
+
 
 export default Quote;
 /* Needs to be updated with Axis jobber embed
