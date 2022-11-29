@@ -8,6 +8,7 @@
   flex-direction: row-reverse;
   background: white;
   margin-top: 10vh;
+
   
 
 }
@@ -113,6 +114,7 @@ width: 45%;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+
     
   }
 .CarouselLabel{
@@ -127,6 +129,7 @@ height: 5rem;
 background: rgb(255, 255, 255);
 backdrop-filter: blur(2rem);
 overflow-y: hidden;
+font-family: 'Encode Sans Expanded', sans-serif;
 }
 .ServicesBtn{
  width: fit-content;
@@ -150,6 +153,7 @@ margin: 2rem;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+
 
     &:hover{
         transition: all 0.2s ease-in-out;

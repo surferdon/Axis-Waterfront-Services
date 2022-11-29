@@ -7,21 +7,21 @@ import { Button } from '../components/ButtonElement';
 const data = [
       {
         class: "img1",
-        label: "Label"
+        label: "Axis Waterfront"
       },
       {
         class: "img2",
-        label: "Label"
+        label: "Axis Waterfront"
       },      {
         class: "img3",
-        label: "Label"
+        label: "Axis Waterfront"
       },      {
         class: "img4",
-        label: "Label"
+        label: "Axis Waterfront"
       },
       {
         class: "img5",
-        label: "Label"
+        label: "Axis Waterfront"
       }]
 
 const DockServices = () => {
