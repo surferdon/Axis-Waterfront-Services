@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Carousel from 'framer-motion-carousel';
-import { Button } from '../components/ButtonElement';
+
 
 
 
@@ -25,11 +25,7 @@ const data = [
       }]
 
 const DockServices = () => {
-    const [hover, setHover] = useState(false)
 
-const onHover = () => {
-    setHover(!hover);
-};
     return (
 
 <div className='DockServiceMain'>
@@ -48,7 +44,7 @@ const onHover = () => {
     ><button className="DockServiceBtn"
 
                 >
-                    Learn More {hover ? "" : ""}
+                    Learn More 
                    
                    
                 </button></a>
