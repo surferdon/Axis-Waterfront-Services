@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Carousel from 'framer-motion-carousel';
+import { Button } from '../components/ButtonElement';
+
 
 
 const data = [
@@ -23,6 +25,11 @@ const data = [
       }]
 
 const DockServices = () => {
+    const [hover, setHover] = useState(false)
+
+const onHover = () => {
+    setHover(!hover);
+};
     return (
 
 <div className='DockServiceMain'>
@@ -36,6 +43,15 @@ const DockServices = () => {
     Axis Waterfront Services offers a variety of repair and maintenance services to help with all of your dock repair needs. We can assist with anything from on-water welding(aluminum or steel) to gangway replacement
 
     </p>
+    <a className="ServicesBtn"
+   target="_blank" rel="noopener noreferrer" href= "https://www.spillarcustomdocks.com/"
+    ><button className="DockServiceBtn"
+
+                >
+                    Learn More {hover ? "" : ""}
+                   
+                   
+                </button></a>
 </div>
 
 
