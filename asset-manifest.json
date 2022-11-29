@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/relativepath/static/css/main.acaece96.css",
+    "main.js": "/relativepath/static/js/main.3ff89728.js",
+    "static/media/Axis Waterfront.jpg": "/relativepath/static/media/Axis Waterfront.b9df885480ad7f98ea55.jpg",
+    "static/media/Axis Waterfront 3.jpg": "/relativepath/static/media/Axis Waterfront 3.5ee8119b33bc22a25ade.jpg",
+    "static/media/video1.mp4": "/relativepath/static/media/video1.a1c4caa5a87099f78c90.mp4",
+    "static/media/Tex Axis.png": "/relativepath/static/media/Tex Axis.faee126c8a5f59f9fe26.png",
+    "static/media/wrenchhammer.jpeg": "/relativepath/static/media/wrenchhammer.d7e711f7be53edb58b25.jpeg",
+    "static/media/weld.png": "/relativepath/static/media/weld.cf10c3e571ca369aa778.png",
+    "static/media/Stairs.svg": "/relativepath/static/media/Stairs.bc87103a50a46701abb6712fdf74ad76.svg",
+    "index.html": "/relativepath/index.html",
+    "main.acaece96.css.map": "/relativepath/static/css/main.acaece96.css.map",
+    "main.3ff89728.js.map": "/relativepath/static/js/main.3ff89728.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acaece96.css",
+    "static/js/main.3ff89728.js"
+  ]
+}
