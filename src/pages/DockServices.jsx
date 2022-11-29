@@ -2,27 +2,30 @@ import React from 'react';
 import Carousel from 'framer-motion-carousel';
 
 
+
+
 const data = [
       {
         class: "img1",
-        label: "Label"
+        label: "Axis Waterfront"
       },
       {
         class: "img2",
-        label: "Label"
+        label: "Axis Waterfront"
       },      {
         class: "img3",
-        label: "Label"
+        label: "Axis Waterfront"
       },      {
         class: "img4",
-        label: "Label"
+        label: "Axis Waterfront"
       },
       {
         class: "img5",
-        label: "Label"
+        label: "Axis Waterfront"
       }]
 
 const DockServices = () => {
+
     return (
 
 <div className='DockServiceMain'>
@@ -36,6 +39,15 @@ const DockServices = () => {
     Axis Waterfront Services offers a variety of repair and maintenance services to help with all of your dock repair needs. We can assist with anything from on-water welding(aluminum or steel) to gangway replacement
 
     </p>
+    <a className="ServicesBtn"
+   target="_blank" rel="noopener noreferrer" href= "https://www.spillarcustomdocks.com/"
+    ><button className="DockServiceBtn"
+
+                >
+                    Learn More 
+                   
+                   
+                </button></a>
 </div>
 
 

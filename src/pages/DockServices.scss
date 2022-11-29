@@ -8,6 +8,7 @@
   flex-direction: row-reverse;
   background: white;
   margin-top: 10vh;
+
   
 
 }
@@ -45,7 +46,7 @@ width: 45%;
   aspect-ratio: 1.2/1;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
     .DockServiceCarousel {
         width: 100vw;
         height: 100%;
@@ -113,6 +114,7 @@ width: 45%;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+
     
   }
 .CarouselLabel{
@@ -127,4 +129,38 @@ height: 5rem;
 background: rgb(255, 255, 255);
 backdrop-filter: blur(2rem);
 overflow-y: hidden;
+font-family: 'Encode Sans Expanded', sans-serif;
+}
+.ServicesBtn{
+ width: fit-content;
+position: relative;
+left: 50%;
+margin: 2rem;
+
+}
+
+.DockServiceBtn {
+    border-radius: 50px;
+    background: #01BF71;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #010606;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+
+
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        background: #ffff
+
+    }
+}
+a{
+    color: rgba(255, 255, 255, 0)
 }
