@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45b0e067.css",
+    "main.js": "/static/js/main.2ef0aa83.js",
+    "static/media/Axis Waterfront.jpg": "/static/media/Axis Waterfront.b9df885480ad7f98ea55.jpg",
+    "static/media/Axis Waterfront 3.jpg": "/static/media/Axis Waterfront 3.5ee8119b33bc22a25ade.jpg",
+    "static/media/video1.mp4": "/static/media/video1.a1c4caa5a87099f78c90.mp4",
+    "static/media/niceboat.jpg": "/static/media/niceboat.badf967a90ffe2b212f6.jpg",
+    "static/media/basic_logo_nobackground.png": "/static/media/basic_logo_nobackground.47dd591ea1ed158d9970.png",
+    "static/media/boatdock.jpg": "/static/media/boatdock.a72fd94c4c5b33559cdd.jpg",
+    "static/media/wrenchhammer.jpeg": "/static/media/wrenchhammer.d7e711f7be53edb58b25.jpeg",
+    "static/media/weld.png": "/static/media/weld.cf10c3e571ca369aa778.png",
+    "static/media/Stairs.svg": "/static/media/Stairs.bc87103a50a46701abb6712fdf74ad76.svg",
+    "index.html": "/index.html",
+    "main.45b0e067.css.map": "/static/css/main.45b0e067.css.map",
+    "main.2ef0aa83.js.map": "/static/js/main.2ef0aa83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45b0e067.css",
+    "static/js/main.2ef0aa83.js"
+  ]
+}
