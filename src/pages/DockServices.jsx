@@ -44,7 +44,7 @@ const DockServices = () => {
     ><button className="DockServiceBtn"
 
                 >
-                    Learn More 
+                    New Docks
                    
                    
                 </button></a>
