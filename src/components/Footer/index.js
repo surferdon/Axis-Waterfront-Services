@@ -13,6 +13,7 @@ import {
     SocialMediaWrap, 
     SocialLogo, 
     WebsiteRights, 
+
     SocialIcons, 
     SocialIconLink
 } from './FooterElements';
