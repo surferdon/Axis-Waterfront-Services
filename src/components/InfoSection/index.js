@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
-
+import logo from "./Tex_Axis.png"
 import { 
     InfoContainer, 
     InfoWrapper, 
@@ -62,7 +62,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
             <ImgWrap>
-            <Img src={img} alt={alt}/>
+            <Img src={logo} alt={alt}/>
             </ImgWrap>
             </Column2>
         </InfoRow>
