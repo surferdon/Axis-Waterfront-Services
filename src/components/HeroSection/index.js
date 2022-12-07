@@ -17,7 +17,7 @@ const HeroSection = () => {
         <HeroContent>
             <HeroH1>Boat dock ownership made easy</HeroH1>
             <HeroP>
-                Serving the Texas Highland Lakes
+                Serving the Texas Highland Lakes 
             </HeroP>
             <HeroBtnWrapper>
 
