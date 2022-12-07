@@ -45,7 +45,7 @@ export const homeObjThree = {
     'We would like to meet you, offer some ideas, and provide you with a free quote',
     buttonLabel: 'Request a Quote!',
     imgStart: false,
-    img: require('../../images/basic_logo_nobackground.png'),
+    img: require('../../images/Tex_Axis.png'),
     alt: 'Car',
     dark: false,
     primary: false,
