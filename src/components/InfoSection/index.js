@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
-import logo from "./Tex_Axis.png"
+
 import { 
     InfoContainer, 
     InfoWrapper, 
