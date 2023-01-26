@@ -3,10 +3,10 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Lake life made easy',
-    headline: 'family owned with a lifetime of experience',
+    topLine: 'Family owned and operated',
+    headline: '',
     description: 
-    'Locally owned and operated, Axis Waterfront Services is your go to boat dock maintence and repair in the Texas Highland Lakes.',
+    'Locally owned and operated, Axis Waterfront Services is your “go to” boat dock access, maintenance, repair and upgrade full-service team on Lake Travis.',
     buttonLabel: 'Get started',
     imgStart: false,
     img: require('../../images/Axis Waterfront.jpg'),
