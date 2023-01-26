@@ -19,18 +19,18 @@ const Services = () => {
          <ServicesWrapper>
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>
-                <ServicesH2>Dock Modification</ServicesH2>
-                <ServicesP>We offer a variety of dock Modification services to make your existing dock to the dock of your dreams.</ServicesP>
+                <ServicesH2>Dock Upgrades</ServicesH2>
+                <ServicesP>We do custom upgrades and modifications to your existing dock to include: add-ons, new facades, changes to existing lifts and winches, etc.</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>
                 <ServicesH2>Dock Stairs and Access</ServicesH2>
-                <ServicesP>What ever you need to make the trip to your dock easier, we have the equipment and experience to do so.</ServicesP>
+                <ServicesP>We do all things with stairs and platforms to access your dock or waterfront to include: new construction, extensions, upgrades, replacements, and repairs.  Unfortunately, we do not do tram systems at this time.</ServicesP>
             </ServicesCard>  
             <ServicesCard>
                 <ServicesIcon src={Icon3}/>
-                <ServicesH2>Maintenance</ServicesH2>
-                <ServicesP>We offer montly plans to ensure your dock and lifts are in top shape so you don't have to.</ServicesP>
+                <ServicesH2>Maintenance and Service</ServicesH2>
+                <ServicesP>We offer routine maintenance services to monitor and adjust your dock with the changes in lake levels and greasing/lubricating of lift equipment.  We also perform repairs and maintenance on-call.  Call today for a routine maintenance quote and become one of our preferred customers.</ServicesP>
             </ServicesCard> 
          </ServicesWrapper>
     </ServicesContainer>

@@ -36,7 +36,7 @@ const DockServices = () => {
     No job too big or small
     </h1>
     <p className="DockServiceP">
-    Axis Waterfront Services offers a variety of repair and maintenance services to help with all of your dock repair needs. We can assist with anything from on-water welding(aluminum or steel) to gangway replacement
+    Axis Waterfront Services offers a variety of dock repair and maintenance services to help with all of your needs so that your dock is always ready for you.  No job is too big or small, and we’ll be happy to stop by and review or discuss your issue and possible solutions at no cost.  Just fill out the request form link at the top of the page or below and we’ll be in touch to schedule a consultation.  Axis Waterfront Services offers digital invoicing and payment systems to simplify your experience.  We also accept all major credit cards.
 
     </p>
     <a className="ServicesBtn"
@@ -52,7 +52,7 @@ const DockServices = () => {
 
 
                     <div className="DockServiceCarousel">
-  <Carousel>
+  <Carousel interval="10000">
     {data.map((item, i) => (
    
       <div

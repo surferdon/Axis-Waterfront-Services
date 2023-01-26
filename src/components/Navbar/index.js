@@ -41,7 +41,7 @@ return (
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
                 {children}
-                <NavLogo to='/' onClick={toggleHome}>Axis Waterfront</NavLogo>
+                <NavLogo to='/' onClick={toggleHome}>Axis Waterfront Services</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>

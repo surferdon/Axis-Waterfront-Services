@@ -65,7 +65,7 @@ const Footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to='/' onClick={toggleHome}>
-                        Axis Waterfront
+                        Axis Waterfront Services
                     </SocialLogo>
                     <WebsiteRights> Axis Waterfront Services, llc © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                     <SocialIcons>
