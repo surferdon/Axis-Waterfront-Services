@@ -96,7 +96,7 @@ return (
                         duration={500} 
                         spy={true} 
                         exact='true' 
-                        offset={-80}
+                        offset={100}
                         >Request a quote
                         </NavLinks></JobberBtnLink>
                  

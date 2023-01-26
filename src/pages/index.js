@@ -29,7 +29,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <div className="Main">
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} HandleClick={HandleClick} />
       <HeroSection />
@@ -43,12 +43,12 @@ const Home = () => {
         HandleClick={()=>HandleClick(true)}
         {...homeObjThree}
       />
-      <InfoContainer id="book">
+      <InfoContainer id="book" >
         {" "}
         <Quote className={isActive ? "JobberOpen" : "JobberClosed"} />
       </InfoContainer>
       <Footer />
-    </>
+    </div>
   );
 };
 
