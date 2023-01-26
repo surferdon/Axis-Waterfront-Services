@@ -38,12 +38,12 @@ const InfoSection = ({
   return (
    <>
    {Children}
-   <InfoContainer lightBg={lightBg} id={id}>
+   <InfoContainer lightBg={lightBg} >
     <InfoWrapper>
         <InfoRow imgStart={imgStart}>
-            <Column1>
+            <Column1 id={id}>
             <TextWrapper>
-                <TopLine>{topLine}</TopLine>
+                <TopLine >{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
