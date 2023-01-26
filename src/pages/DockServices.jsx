@@ -28,8 +28,8 @@ const DockServices = () => {
 
     return (
 
-<div className='DockServiceMain'>
-    <div className="DockServiceWords">
+<div className='DockServiceMain' >
+    <div className="DockServiceWords" id="our work">
     <span className="DockServiceSpan">Dock Services</span>
     <h1 className="DockServiceH1">
 

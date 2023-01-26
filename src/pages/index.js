@@ -34,8 +34,8 @@ const Home = () => {
       <Navbar toggle={toggle} HandleClick={HandleClick} />
       <HeroSection />
       <Services />
-<div id="our work">
-      <DockServices /></div>
+
+      <DockServices />
       <InfoSection {...homeObjOne} />
       <InfoSection
         isActive={isActive}
