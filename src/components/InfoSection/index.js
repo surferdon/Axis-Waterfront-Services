@@ -32,7 +32,8 @@ const InfoSection = ({
     dark,
     dark2,
     HandleClick,
-    Children
+    Children,
+    to
 }) => {
   return (
    <>
@@ -46,7 +47,7 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                    <Button to='home'
+                    <Button to={to}
                     onClick={HandleClick}
                     smooth={true}
                     duration={500}

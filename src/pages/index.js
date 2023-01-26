@@ -40,7 +40,7 @@ const Home = () => {
       <InfoSection
         isActive={isActive}
         setIsActive={setIsActive}
-        HandleClick={HandleClick}
+        HandleClick={()=>HandleClick(true)}
         {...homeObjThree}
       />
       <InfoContainer id="book">

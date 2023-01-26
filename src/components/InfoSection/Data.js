@@ -49,7 +49,8 @@ export const homeObjThree = {
     alt: 'Car',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    to: "book"
 };
 export const homeObjFour = {
     id: 'book',
