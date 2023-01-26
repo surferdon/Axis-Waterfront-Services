@@ -45,7 +45,7 @@ const DockServices = () => {
     ><button className="DockServiceBtn"
 
                 >
-                    New Docks
+                    Spillar Custom Boat Docks
                    
                    
                 </button></a>
