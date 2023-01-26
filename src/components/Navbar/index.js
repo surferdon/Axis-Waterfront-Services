@@ -84,7 +84,7 @@ return (
                         duration={500} 
                         spy={true} 
                         exact='true' 
-                        offset={-180}
+                        offset={-120}
                         >Contact
                         </NavLinks>
                     </NavItem>
