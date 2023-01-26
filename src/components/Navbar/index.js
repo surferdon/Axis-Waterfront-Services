@@ -91,7 +91,7 @@ return (
                 </NavMenu>
                 <NavBtn>
                 <JobberBtnLink><NavLinks to='book'
-                        onClick={HandleClick}
+                        onClick={()=>HandleClick(true)}
                         smooth={true} 
                         duration={500} 
                         spy={true} 

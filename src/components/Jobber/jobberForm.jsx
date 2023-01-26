@@ -25,5 +25,3 @@ const Quote =({className}) =>{
 
 
 export default Quote;
-/* Needs to be updated with Axis jobber embed
-Information doesnt seem to be valid */

@@ -19,9 +19,9 @@ const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isActive, setIsActive] = useState(false);
 
-  const HandleClick = () => {
-    setIsActive(!isActive);
-    console.log(isActive);
+  const HandleClick = (i) => {
+    setIsActive(i);
+
   };
   const toggle = () => {
     setIsOpen(!isOpen);
