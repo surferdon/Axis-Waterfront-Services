@@ -1,8 +1,14 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElement'
 
-const Sidebar = ({ isOpen, toggle}) => {
-  return (
+const Sidebar = ({ isOpen, toggle, HandleClick}) => {
+
+
+const HandleClick1=(i)=>{
+HandleClick(i);
+toggle();
+}
+    return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon onClick={toggle}>
             <CloseIcon />
@@ -26,7 +32,9 @@ const Sidebar = ({ isOpen, toggle}) => {
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="/signin">Sign In</SidebarRoute>
+            <SidebarLink className='DockServiceBtn2' to="book" offset={120} onClick={HandleClick1}>
+                    Request a Quote!
+                </SidebarLink>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>

@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div className="Main">
-      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} HandleClick={HandleClick}/>
       <Navbar toggle={toggle} HandleClick={HandleClick} />
       <HeroSection />
       <Services />
