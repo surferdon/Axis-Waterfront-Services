@@ -67,7 +67,7 @@ const DockServices = () => {
         overflowY: "hidden"}}
 
      >
-      <span className="CarouselLabel">{item.label}</span></div>
+      <span className="CarouselLabel">{""}</span></div>
     ))}
   </Carousel>
 </div>
