@@ -22,6 +22,9 @@ const data = [
       {
         class: "img5",
         label: "Axis Waterfront"
+      },      {
+        class: "img6",
+        label: "Axis Waterfront"
       }]
 
 const DockServices = () => {
@@ -53,7 +56,7 @@ const DockServices = () => {
 
 
                     <div className="DockServiceCarousel" style={{height: 'fit-content', position: 'relative', float: "left"}}>
-  <Carousel interval="10000">
+  <Carousel interval="10000" >
     {data.map((item, i) => (
    
       <div
